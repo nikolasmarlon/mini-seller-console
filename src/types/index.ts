@@ -11,3 +11,11 @@ export type Lead = {
   score: number;
   status: LeadStatus;
 };
+
+export type Opportunity = {
+  id: string;
+  name: string; // Vem do lead.name
+  accountName: string; // Vem do lead.company
+  stage: 'Prospecting' | 'Qualification' | 'Closed Won' | 'Closed Lost';
+  amount?: number; 
+};

@@ -1,24 +1,20 @@
 import { useState, useEffect, useMemo } from 'react';
-import type { Lead, LeadStatus } from '../types';
+import type { Lead, LeadStatus, Opportunity } from '../types';
 import leadsData from '../data/leads.json';
-import { LeadDetailPanel } from './LeadDetailPanel'; // Importamos o painel
+import { LeadDetailPanel } from './LeadDetailPanel';
 
-export function LeadsList() {
+export function ConsoleView() {
   const [leads, setLeads] = useState<Lead[]>([]);
+  const [opportunities, setOpportunities] = useState<Opportunity[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-
-  // Estados para os controles de filtro e busca
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState<LeadStatus | 'All'>('All');
   const [sortOrder, setSortOrder] = useState<'desc' | 'asc' | null>(null);
-
-  // Estado para controlar qual lead está selecionado para o painel
   const [selectedLead, setSelectedLead] = useState<Lead | null>(null);
 
   useEffect(() => {
+    // Simula o carregamento inicial dos dados
     const timer = setTimeout(() => {
-      // Lembre-se de corrigir seu JSON para ter os status com letra maiúscula
-      // Ex: "New", "Contacted", etc.
       setLeads(leadsData as Lead[]);
       setIsLoading(false);
     }, 1000);
@@ -26,10 +22,10 @@ export function LeadsList() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Lógica para filtrar e ordenar os leads
   const filteredAndSortedLeads = useMemo(() => {
     let result = leads;
 
+    // 1. Lógica de Busca
     if (searchTerm) {
       result = result.filter(
         (lead) =>
@@ -38,10 +34,12 @@ export function LeadsList() {
       );
     }
 
+    // 2. Lógica de Filtro por Status
     if (statusFilter !== 'All') {
       result = result.filter((lead) => lead.status === statusFilter);
     }
     
+    // 3. Lógica de Ordenação
     if (sortOrder) {
       result = [...result].sort((a, b) => {
         return sortOrder === 'desc' ? b.score - a.score : a.score - b.score;
@@ -50,6 +48,29 @@ export function LeadsList() {
 
     return result;
   }, [leads, searchTerm, statusFilter, sortOrder]);
+
+  const handleSaveLead = (updatedLead: Lead) => {
+    setTimeout(() => {
+      setLeads((prevLeads) =>
+        prevLeads.map((lead) =>
+          lead.id === updatedLead.id ? updatedLead : lead
+        )
+      );
+      setSelectedLead(updatedLead);
+    }, 500);
+  };
+
+  const handleConvertToOpportunity = (leadToConvert: Lead) => {
+    const newOpportunity: Opportunity = {
+      id: `opp-${Date.now()}`,
+      name: `${leadToConvert.name}'s Opportunity`,
+      accountName: leadToConvert.company,
+      stage: 'Prospecting',
+    };
+    setOpportunities((prev) => [...prev, newOpportunity]);
+    setLeads((prev) => prev.filter((lead) => lead.id !== leadToConvert.id));
+    setSelectedLead(null);
+  };
 
   if (isLoading) {
     return <div className="p-8">Carregando leads...</div>;
@@ -119,10 +140,40 @@ export function LeadsList() {
           </tbody>
         </table>
       </div>
+      
+      <div className="mt-12">
+        <h2 className="text-2xl font-bold mb-6">Opportunities</h2>
+        {opportunities.length > 0 ? (
+          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+            <table className="min-w-full leading-normal">
+              <thead>
+                <tr className="bg-gray-100 text-left text-gray-600 uppercase text-sm">
+                  <th className="px-5 py-3 border-b-2 border-gray-200">Opportunity Name</th>
+                  <th className="px-5 py-3 border-b-2 border-gray-200">Account Name</th>
+                  <th className="px-5 py-3 border-b-2 border-gray-200">Stage</th>
+                </tr>
+              </thead>
+              <tbody>
+                {opportunities.map((opp) => (
+                  <tr key={opp.id} className="border-b border-gray-200">
+                    <td className="px-5 py-4"><p className="text-gray-900">{opp.name}</p></td>
+                    <td className="px-5 py-4"><p className="text-gray-900">{opp.accountName}</p></td>
+                    <td className="px-5 py-4"><p className="text-gray-900">{opp.stage}</p></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p className="text-gray-500">Nenhuma oportunidade criada ainda.</p>
+        )}
+      </div>
 
-      <LeadDetailPanel 
-        lead={selectedLead} 
-        onClose={() => setSelectedLead(null)} 
+      <LeadDetailPanel
+        lead={selectedLead}
+        onClose={() => setSelectedLead(null)}
+        onSave={handleSaveLead}
+        onConvert={handleConvertToOpportunity}
       />
     </div>
   );

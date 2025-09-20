@@ -4,7 +4,7 @@
     "name": "Daniel Rodriguez",
     "company": "Silverline Co",
     "email": "daniel.rodriguez1@yahoo.com",
-    "source": "web",
+    "source": "Web",
     "score": 33,
     "status": "contacted"
   },
@@ -15,7 +15,7 @@
     "email": "joshua.perez2@outlook.com",
     "source": "event",
     "score": 99,
-    "status": "new"
+    "status": "NEw"
   },
   {
     "id": "lead-3",
