@@ -36,7 +36,9 @@ export function ConsoleView() {
 
     // 2. Lógica de Filtro por Status
     if (statusFilter !== 'All') {
-      result = result.filter((lead) => lead.status === statusFilter);
+      result = result.filter(
+        (lead) => lead.status.toLowerCase() === statusFilter.toLowerCase()
+      );
     }
     
     // 3. Lógica de Ordenação
