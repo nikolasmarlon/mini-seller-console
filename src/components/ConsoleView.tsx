@@ -32,7 +32,6 @@ export function ConsoleView() {
       );
     }
 
-    // A SUA CORREÇÃO APLICADA AQUI:
     if (statusFilter !== 'All') {
       result = result.filter(
         (lead) => lead.status.toLowerCase() === statusFilter.toLowerCase()
@@ -130,7 +129,6 @@ export function ConsoleView() {
               Ordenar por Score {sortOrder === 'desc' ? '↓' : '↑'}
             </button>
           </div>
-
           <div className="hidden md:block bg-white shadow-md rounded-lg overflow-hidden">
             <table className="min-w-full leading-normal">
               <thead>
@@ -160,7 +158,6 @@ export function ConsoleView() {
               </tbody>
             </table>
           </div>
-
           <div className="md:hidden space-y-4">
             {filteredAndSortedLeads.map((lead) => (
               <div key={lead.id} onClick={() => setSelectedLead(lead)} className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
@@ -181,30 +178,49 @@ export function ConsoleView() {
         </div>
       )}
 
+      {/* ++ ESTA É A SEÇÃO QUE FOI MODIFICADA ++ */}
       {activeTab === 'opportunities' && (
         <div>
           <h2 className="text-xl md:text-2xl font-bold mb-6">Opportunities</h2>
           {opportunities.length > 0 ? (
-            <div className="bg-white shadow-md rounded-lg overflow-hidden">
-              <table className="min-w-full leading-normal">
-                <thead>
-                  <tr className="bg-gray-100 text-left text-gray-600 uppercase text-sm">
-                    <th className="px-5 py-3 border-b-2 border-gray-200">Opportunity Name</th>
-                    <th className="px-5 py-3 border-b-2 border-gray-200">Account Name</th>
-                    <th className="px-5 py-3 border-b-2 border-gray-200">Stage</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {opportunities.map((opp) => (
-                    <tr key={opp.id} className="border-b border-gray-200">
-                      <td className="px-5 py-4"><p className="text-gray-900">{opp.name}</p></td>
-                      <td className="px-5 py-4"><p className="text-gray-900">{opp.accountName}</p></td>
-                      <td className="px-5 py-4"><p className="text-gray-900">{opp.stage}</p></td>
+            <>
+              {/* Tabela para Desktop (visível em telas médias e maiores) */}
+              <div className="hidden md:block bg-white shadow-md rounded-lg overflow-hidden">
+                <table className="min-w-full leading-normal">
+                  <thead>
+                    <tr className="bg-gray-100 text-left text-gray-600 uppercase text-sm">
+                      <th className="px-5 py-3 border-b-2 border-gray-200">Opportunity Name</th>
+                      <th className="px-5 py-3 border-b-2 border-gray-200">Account Name</th>
+                      <th className="px-5 py-3 border-b-2 border-gray-200">Stage</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+                  </thead>
+                  <tbody>
+                    {opportunities.map((opp) => (
+                      <tr key={opp.id} className="border-b border-gray-200">
+                        <td className="px-5 py-4"><p className="text-gray-900">{opp.name}</p></td>
+                        <td className="px-5 py-4"><p className="text-gray-900">{opp.accountName}</p></td>
+                        <td className="px-5 py-4"><p className="text-gray-900">{opp.stage}</p></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* Cards para Mobile (visível apenas em telas pequenas) */}
+              <div className="md:hidden space-y-4">
+                {opportunities.map((opp) => (
+                  <div key={opp.id} className="bg-white p-4 rounded-lg shadow-md">
+                    <p className="font-bold text-lg">{opp.name}</p>
+                    <p className="text-gray-600">{opp.accountName}</p>
+                    <div className="mt-2">
+                      <span className="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">
+                        {opp.stage}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </>
           ) : (
             <p className="text-gray-500">Nenhuma oportunidade criada ainda.</p>
           )}
