@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "lead-1",
+    "name": "Daniel Rodriguez",
+    "company": "Silverline Co",
+    "email": "daniel.rodriguez1@yahoo.com",
+    "source": "web",
+    "score": 33,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-2",
+    "name": "Joshua Perez",
+    "company": "Prime Consulting",
+    "email": "joshua.perez2@outlook.com",
+    "source": "event",
+    "score": 99,
+    "status": "new"
+  },
+  {
+    "id": "lead-3",
+    "name": "Avery Moore",
+    "company": "NextGen Solutions",
+    "email": "avery.moore3@yahoo.com",
+    "source": "ads",
+    "score": 18,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-4",
+    "name": "Matthew Brown",
+    "company": "BlueWave Tech",
+    "email": "matthew.brown4@gmail.com",
+    "source": "ads",
+    "score": 23,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-5",
+    "name": "Matthew Brown",
+    "company": "Prime Consulting",
+    "email": "matthew.brown5@company.com",
+    "source": "event",
+    "score": 23,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-6",
+    "name": "Joseph Davis",
+    "company": "Visionary Ltd",
+    "email": "joseph.davis6@gmail.com",
+    "source": "referral",
+    "score": 85,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-7",
+    "name": "Jessica Martin",
+    "company": "Redwood Ventures",
+    "email": "jessica.martin7@company.com",
+    "source": "referral",
+    "score": 64,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-8",
+    "name": "Ryan Perez",
+    "company": "Pioneer Labs",
+    "email": "ryan.perez8@gmail.com",
+    "source": "ads",
+    "score": 37,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-9",
+    "name": "Abigail Rodriguez",
+    "company": "Acme Corp",
+    "email": "abigail.rodriguez9@outlook.com",
+    "source": "ads",
+    "score": 71,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-10",
+    "name": "Daniel Martinez",
+    "company": "United Systems",
+    "email": "daniel.martinez10@outlook.com",
+    "source": "referral",
+    "score": 14,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-11",
+    "name": "Daniel Anderson",
+    "company": "Redwood Ventures",
+    "email": "daniel.anderson11@gmail.com",
+    "source": "referral",
+    "score": 82,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-12",
+    "name": "John Williams",
+    "company": "Global Services",
+    "email": "john.williams12@company.com",
+    "source": "referral",
+    "score": 20,
+    "status": "new"
+  },
+  {
+    "id": "lead-13",
+    "name": "Samuel Martin",
+    "company": "Global Services",
+    "email": "samuel.martin13@yahoo.com",
+    "source": "ads",
+    "score": 26,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-14",
+    "name": "Samuel Jackson",
+    "company": "Tech Innovators",
+    "email": "samuel.jackson14@company.com",
+    "source": "web",
+    "score": 95,
+    "status": "new"
+  },
+  {
+    "id": "lead-15",
+    "name": "Elizabeth Garcia",
+    "company": "Pioneer Labs",
+    "email": "elizabeth.garcia15@yahoo.com",
+    "source": "ads",
+    "score": 35,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-16",
+    "name": "Samuel Lee",
+    "company": "Silverline Co",
+    "email": "samuel.lee16@gmail.com",
+    "source": "event",
+    "score": 51,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-17",
+    "name": "Jessica Garcia",
+    "company": "Everest Group",
+    "email": "jessica.garcia17@company.com",
+    "source": "event",
+    "score": 84,
+    "status": "new"
+  },
+  {
+    "id": "lead-18",
+    "name": "Ethan Thompson",
+    "company": "NextGen Solutions",
+    "email": "ethan.thompson18@company.com",
+    "source": "event",
+    "score": 60,
+    "status": "new"
+  },
+  {
+    "id": "lead-19",
+    "name": "James Wilson",
+    "company": "Bright Future LLC",
+    "email": "james.wilson19@gmail.com",
+    "source": "ads",
+    "score": 97,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-20",
+    "name": "Joshua Johnson",
+    "company": "Pioneer Labs",
+    "email": "joshua.johnson20@outlook.com",
+    "source": "ads",
+    "score": 61,
+    "status": "new"
+  },
+  {
+    "id": "lead-21",
+    "name": "Ashley Thomas",
+    "company": "NextGen Solutions",
+    "email": "ashley.thomas21@outlook.com",
+    "source": "referral",
+    "score": 39,
+    "status": "new"
+  },
+  {
+    "id": "lead-22",
+    "name": "Amanda Smith",
+    "company": "Global Services",
+    "email": "amanda.smith22@company.com",
+    "source": "ads",
+    "score": 79,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-23",
+    "name": "Elizabeth Miller",
+    "company": "Everest Group",
+    "email": "elizabeth.miller23@company.com",
+    "source": "ads",
+    "score": 21,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-24",
+    "name": "Sophia Wilson",
+    "company": "NextGen Solutions",
+    "email": "sophia.wilson24@company.com",
+    "source": "web",
+    "score": 66,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-25",
+    "name": "James Miller",
+    "company": "Tech Innovators",
+    "email": "james.miller25@outlook.com",
+    "source": "ads",
+    "score": 12,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-26",
+    "name": "Sarah Martin",
+    "company": "Global Services",
+    "email": "sarah.martin26@outlook.com",
+    "source": "web",
+    "score": 39,
+    "status": "new"
+  },
+  {
+    "id": "lead-27",
+    "name": "Ella Garcia",
+    "company": "Visionary Ltd",
+    "email": "ella.garcia27@gmail.com",
+    "source": "event",
+    "score": 18,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-28",
+    "name": "Sarah Perez",
+    "company": "Bright Future LLC",
+    "email": "sarah.perez28@yahoo.com",
+    "source": "event",
+    "score": 45,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-29",
+    "name": "Ella Davis",
+    "company": "Bright Future LLC",
+    "email": "ella.davis29@gmail.com",
+    "source": "event",
+    "score": 94,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-30",
+    "name": "David Brown",
+    "company": "Greenfield Partners",
+    "email": "david.brown30@outlook.com",
+    "source": "referral",
+    "score": 36,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-31",
+    "name": "Ashley Taylor",
+    "company": "Silverline Co",
+    "email": "ashley.taylor31@gmail.com",
+    "source": "web",
+    "score": 98,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-32",
+    "name": "John Williams",
+    "company": "Pioneer Labs",
+    "email": "john.williams32@outlook.com",
+    "source": "referral",
+    "score": 61,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-33",
+    "name": "Ashley Thompson",
+    "company": "Redwood Ventures",
+    "email": "ashley.thompson33@company.com",
+    "source": "referral",
+    "score": 31,
+    "status": "new"
+  },
+  {
+    "id": "lead-34",
+    "name": "Sarah Jackson",
+    "company": "Pioneer Labs",
+    "email": "sarah.jackson34@gmail.com",
+    "source": "web",
+    "score": 76,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-35",
+    "name": "Sophia Thomas",
+    "company": "NextGen Solutions",
+    "email": "sophia.thomas35@yahoo.com",
+    "source": "event",
+    "score": 14,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-36",
+    "name": "Ella Garcia",
+    "company": "Everest Group",
+    "email": "ella.garcia36@outlook.com",
+    "source": "event",
+    "score": 96,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-37",
+    "name": "Ashley Brown",
+    "company": "Acme Corp",
+    "email": "ashley.brown37@company.com",
+    "source": "web",
+    "score": 15,
+    "status": "new"
+  },
+  {
+    "id": "lead-38",
+    "name": "Elizabeth Moore",
+    "company": "Silverline Co",
+    "email": "elizabeth.moore38@gmail.com",
+    "source": "referral",
+    "score": 79,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-39",
+    "name": "Ashley Davis",
+    "company": "Global Services",
+    "email": "ashley.davis39@gmail.com",
+    "source": "ads",
+    "score": 96,
+    "status": "new"
+  },
+  {
+    "id": "lead-40",
+    "name": "Matthew Moore",
+    "company": "Prime Consulting",
+    "email": "matthew.moore40@gmail.com",
+    "source": "referral",
+    "score": 25,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-41",
+    "name": "Ashley Miller",
+    "company": "Bright Future LLC",
+    "email": "ashley.miller41@outlook.com",
+    "source": "referral",
+    "score": 80,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-42",
+    "name": "Hannah Davis",
+    "company": "Summit Industries",
+    "email": "hannah.davis42@gmail.com",
+    "source": "ads",
+    "score": 11,
+    "status": "new"
+  },
+  {
+    "id": "lead-43",
+    "name": "Avery Smith",
+    "company": "Pioneer Labs",
+    "email": "avery.smith43@yahoo.com",
+    "source": "event",
+    "score": 61,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-44",
+    "name": "Nathan Miller",
+    "company": "Silverline Co",
+    "email": "nathan.miller44@outlook.com",
+    "source": "web",
+    "score": 57,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-45",
+    "name": "Ashley Rodriguez",
+    "company": "Greenfield Partners",
+    "email": "ashley.rodriguez45@outlook.com",
+    "source": "event",
+    "score": 84,
+    "status": "new"
+  },
+  {
+    "id": "lead-46",
+    "name": "Matthew Martinez",
+    "company": "BlueWave Tech",
+    "email": "matthew.martinez46@outlook.com",
+    "source": "referral",
+    "score": 88,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-47",
+    "name": "Ryan Lee",
+    "company": "Summit Industries",
+    "email": "ryan.lee47@company.com",
+    "source": "event",
+    "score": 36,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-48",
+    "name": "Hannah Martin",
+    "company": "Global Services",
+    "email": "hannah.martin48@company.com",
+    "source": "referral",
+    "score": 40,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-49",
+    "name": "Alexander Perez",
+    "company": "Summit Industries",
+    "email": "alexander.perez49@gmail.com",
+    "source": "referral",
+    "score": 44,
+    "status": "new"
+  },
+  {
+    "id": "lead-50",
+    "name": "Daniel Lee",
+    "company": "Silverline Co",
+    "email": "daniel.lee50@yahoo.com",
+    "source": "event",
+    "score": 24,
+    "status": "new"
+  },
+  {
+    "id": "lead-51",
+    "name": "Isabella Miller",
+    "company": "Prime Consulting",
+    "email": "isabella.miller51@outlook.com",
+    "source": "event",
+    "score": 65,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-52",
+    "name": "Hannah Jackson",
+    "company": "Visionary Ltd",
+    "email": "hannah.jackson52@outlook.com",
+    "source": "referral",
+    "score": 30,
+    "status": "new"
+  },
+  {
+    "id": "lead-53",
+    "name": "Sarah Davis",
+    "company": "Greenfield Partners",
+    "email": "sarah.davis53@yahoo.com",
+    "source": "ads",
+    "score": 24,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-54",
+    "name": "Alexander Jackson",
+    "company": "BlueWave Tech",
+    "email": "alexander.jackson54@company.com",
+    "source": "event",
+    "score": 36,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-55",
+    "name": "Emily Williams",
+    "company": "Redwood Ventures",
+    "email": "emily.williams55@outlook.com",
+    "source": "event",
+    "score": 91,
+    "status": "new"
+  },
+  {
+    "id": "lead-56",
+    "name": "Mia Smith",
+    "company": "Prime Consulting",
+    "email": "mia.smith56@outlook.com",
+    "source": "web",
+    "score": 39,
+    "status": "new"
+  },
+  {
+    "id": "lead-57",
+    "name": "Avery Jones",
+    "company": "Acme Corp",
+    "email": "avery.jones57@gmail.com",
+    "source": "ads",
+    "score": 95,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-58",
+    "name": "Charlotte Lee",
+    "company": "Summit Industries",
+    "email": "charlotte.lee58@yahoo.com",
+    "source": "ads",
+    "score": 78,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-59",
+    "name": "Avery Johnson",
+    "company": "Pioneer Labs",
+    "email": "avery.johnson59@company.com",
+    "source": "referral",
+    "score": 66,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-60",
+    "name": "Sophia Davis",
+    "company": "Prime Consulting",
+    "email": "sophia.davis60@yahoo.com",
+    "source": "referral",
+    "score": 52,
+    "status": "new"
+  },
+  {
+    "id": "lead-61",
+    "name": "Emily Davis",
+    "company": "Prime Consulting",
+    "email": "emily.davis61@outlook.com",
+    "source": "referral",
+    "score": 40,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-62",
+    "name": "Emily Anderson",
+    "company": "Acme Corp",
+    "email": "emily.anderson62@yahoo.com",
+    "source": "ads",
+    "score": 49,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-63",
+    "name": "Nathan Thompson",
+    "company": "Visionary Ltd",
+    "email": "nathan.thompson63@company.com",
+    "source": "web",
+    "score": 83,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-64",
+    "name": "Christopher Rodriguez",
+    "company": "United Systems",
+    "email": "christopher.rodriguez64@outlook.com",
+    "source": "event",
+    "score": 84,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-65",
+    "name": "Hannah Jackson",
+    "company": "Visionary Ltd",
+    "email": "hannah.jackson65@outlook.com",
+    "source": "referral",
+    "score": 21,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-66",
+    "name": "Ashley Miller",
+    "company": "United Systems",
+    "email": "ashley.miller66@gmail.com",
+    "source": "event",
+    "score": 62,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-67",
+    "name": "Michael Williams",
+    "company": "Tech Innovators",
+    "email": "michael.williams67@company.com",
+    "source": "web",
+    "score": 69,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-68",
+    "name": "James Taylor",
+    "company": "Tech Innovators",
+    "email": "james.taylor68@gmail.com",
+    "source": "event",
+    "score": 22,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-69",
+    "name": "Ashley Wilson",
+    "company": "United Systems",
+    "email": "ashley.wilson69@yahoo.com",
+    "source": "referral",
+    "score": 23,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-70",
+    "name": "James Jackson",
+    "company": "Visionary Ltd",
+    "email": "james.jackson70@yahoo.com",
+    "source": "event",
+    "score": 12,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-71",
+    "name": "Amanda Wilson",
+    "company": "Prime Consulting",
+    "email": "amanda.wilson71@outlook.com",
+    "source": "event",
+    "score": 51,
+    "status": "new"
+  },
+  {
+    "id": "lead-72",
+    "name": "Andrew Jones",
+    "company": "NextGen Solutions",
+    "email": "andrew.jones72@gmail.com",
+    "source": "referral",
+    "score": 54,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-73",
+    "name": "Nathan Williams",
+    "company": "Visionary Ltd",
+    "email": "nathan.williams73@gmail.com",
+    "source": "event",
+    "score": 42,
+    "status": "new"
+  },
+  {
+    "id": "lead-74",
+    "name": "Amanda Miller",
+    "company": "Pioneer Labs",
+    "email": "amanda.miller74@outlook.com",
+    "source": "web",
+    "score": 13,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-75",
+    "name": "Matthew Lee",
+    "company": "Silverline Co",
+    "email": "matthew.lee75@company.com",
+    "source": "event",
+    "score": 94,
+    "status": "new"
+  },
+  {
+    "id": "lead-76",
+    "name": "Nathan Brown",
+    "company": "Everest Group",
+    "email": "nathan.brown76@outlook.com",
+    "source": "event",
+    "score": 37,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-77",
+    "name": "Olivia Miller",
+    "company": "Pioneer Labs",
+    "email": "olivia.miller77@yahoo.com",
+    "source": "event",
+    "score": 34,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-78",
+    "name": "Charlotte Thomas",
+    "company": "Summit Industries",
+    "email": "charlotte.thomas78@company.com",
+    "source": "referral",
+    "score": 28,
+    "status": "new"
+  },
+  {
+    "id": "lead-79",
+    "name": "Amanda Miller",
+    "company": "Tech Innovators",
+    "email": "amanda.miller79@company.com",
+    "source": "web",
+    "score": 66,
+    "status": "new"
+  },
+  {
+    "id": "lead-80",
+    "name": "Abigail Rodriguez",
+    "company": "Silverline Co",
+    "email": "abigail.rodriguez80@company.com",
+    "source": "referral",
+    "score": 91,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-81",
+    "name": "Hannah Jackson",
+    "company": "Redwood Ventures",
+    "email": "hannah.jackson81@gmail.com",
+    "source": "referral",
+    "score": 15,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-82",
+    "name": "Joseph Garcia",
+    "company": "Silverline Co",
+    "email": "joseph.garcia82@company.com",
+    "source": "web",
+    "score": 29,
+    "status": "new"
+  },
+  {
+    "id": "lead-83",
+    "name": "Jessica Martin",
+    "company": "BlueWave Tech",
+    "email": "jessica.martin83@outlook.com",
+    "source": "ads",
+    "score": 41,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-84",
+    "name": "Abigail Smith",
+    "company": "Redwood Ventures",
+    "email": "abigail.smith84@outlook.com",
+    "source": "ads",
+    "score": 44,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-85",
+    "name": "Matthew Thomas",
+    "company": "Acme Corp",
+    "email": "matthew.thomas85@yahoo.com",
+    "source": "referral",
+    "score": 10,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-86",
+    "name": "John Jackson",
+    "company": "Global Services",
+    "email": "john.jackson86@company.com",
+    "source": "referral",
+    "score": 65,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-87",
+    "name": "Olivia Miller",
+    "company": "United Systems",
+    "email": "olivia.miller87@gmail.com",
+    "source": "referral",
+    "score": 99,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-88",
+    "name": "Jessica Moore",
+    "company": "Prime Consulting",
+    "email": "jessica.moore88@yahoo.com",
+    "source": "referral",
+    "score": 79,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-89",
+    "name": "Amanda Perez",
+    "company": "Prime Consulting",
+    "email": "amanda.perez89@company.com",
+    "source": "web",
+    "score": 39,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-90",
+    "name": "Jessica Rodriguez",
+    "company": "Redwood Ventures",
+    "email": "jessica.rodriguez90@outlook.com",
+    "source": "event",
+    "score": 80,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-91",
+    "name": "Christopher Thompson",
+    "company": "BlueWave Tech",
+    "email": "christopher.thompson91@outlook.com",
+    "source": "event",
+    "score": 47,
+    "status": "new"
+  },
+  {
+    "id": "lead-92",
+    "name": "Sophia Thompson",
+    "company": "Acme Corp",
+    "email": "sophia.thompson92@company.com",
+    "source": "referral",
+    "score": 39,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-93",
+    "name": "David Garcia",
+    "company": "Tech Innovators",
+    "email": "david.garcia93@yahoo.com",
+    "source": "web",
+    "score": 74,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-94",
+    "name": "Michael Moore",
+    "company": "Pioneer Labs",
+    "email": "michael.moore94@yahoo.com",
+    "source": "event",
+    "score": 29,
+    "status": "new"
+  },
+  {
+    "id": "lead-95",
+    "name": "Hannah Thompson",
+    "company": "Acme Corp",
+    "email": "hannah.thompson95@outlook.com",
+    "source": "event",
+    "score": 68,
+    "status": "new"
+  },
+  {
+    "id": "lead-96",
+    "name": "Amanda Johnson",
+    "company": "Acme Corp",
+    "email": "amanda.johnson96@gmail.com",
+    "source": "referral",
+    "score": 38,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-97",
+    "name": "Sophia Williams",
+    "company": "Prime Consulting",
+    "email": "sophia.williams97@gmail.com",
+    "source": "web",
+    "score": 45,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-98",
+    "name": "Michael Johnson",
+    "company": "Silverline Co",
+    "email": "michael.johnson98@company.com",
+    "source": "ads",
+    "score": 64,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-99",
+    "name": "Andrew Miller",
+    "company": "Redwood Ventures",
+    "email": "andrew.miller99@company.com",
+    "source": "referral",
+    "score": 44,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-100",
+    "name": "Ashley Jones",
+    "company": "Tech Innovators",
+    "email": "ashley.jones100@gmail.com",
+    "source": "event",
+    "score": 33,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-101",
+    "name": "Andrew Williams",
+    "company": "United Systems",
+    "email": "andrew.williams101@company.com",
+    "source": "web",
+    "score": 24,
+    "status": "new"
+  },
+  {
+    "id": "lead-102",
+    "name": "Ella Miller",
+    "company": "Acme Corp",
+    "email": "ella.miller102@company.com",
+    "source": "web",
+    "score": 81,
+    "status": "new"
+  },
+  {
+    "id": "lead-103",
+    "name": "Olivia Thomas",
+    "company": "Redwood Ventures",
+    "email": "olivia.thomas103@company.com",
+    "source": "referral",
+    "score": 96,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-104",
+    "name": "Sophia Garcia",
+    "company": "Tech Innovators",
+    "email": "sophia.garcia104@yahoo.com",
+    "source": "web",
+    "score": 85,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-105",
+    "name": "Christopher Thomas",
+    "company": "Prime Consulting",
+    "email": "christopher.thomas105@yahoo.com",
+    "source": "event",
+    "score": 28,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-106",
+    "name": "Isabella Lee",
+    "company": "United Systems",
+    "email": "isabella.lee106@gmail.com",
+    "source": "referral",
+    "score": 65,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-107",
+    "name": "Daniel Thomas",
+    "company": "BlueWave Tech",
+    "email": "daniel.thomas107@outlook.com",
+    "source": "web",
+    "score": 19,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-108",
+    "name": "Ethan Jones",
+    "company": "Acme Corp",
+    "email": "ethan.jones108@company.com",
+    "source": "referral",
+    "score": 21,
+    "status": "new"
+  },
+  {
+    "id": "lead-109",
+    "name": "Ella Wilson",
+    "company": "Summit Industries",
+    "email": "ella.wilson109@yahoo.com",
+    "source": "referral",
+    "score": 73,
+    "status": "new"
+  },
+  {
+    "id": "lead-110",
+    "name": "Nathan Garcia",
+    "company": "Prime Consulting",
+    "email": "nathan.garcia110@outlook.com",
+    "source": "event",
+    "score": 78,
+    "status": "new"
+  },
+  {
+    "id": "lead-111",
+    "name": "Ashley Davis",
+    "company": "Bright Future LLC",
+    "email": "ashley.davis111@yahoo.com",
+    "source": "web",
+    "score": 61,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-112",
+    "name": "Olivia Martinez",
+    "company": "Everest Group",
+    "email": "olivia.martinez112@yahoo.com",
+    "source": "web",
+    "score": 13,
+    "status": "new"
+  },
+  {
+    "id": "lead-113",
+    "name": "Andrew Smith",
+    "company": "Summit Industries",
+    "email": "andrew.smith113@yahoo.com",
+    "source": "referral",
+    "score": 25,
+    "status": "new"
+  },
+  {
+    "id": "lead-114",
+    "name": "Daniel Miller",
+    "company": "Pioneer Labs",
+    "email": "daniel.miller114@company.com",
+    "source": "web",
+    "score": 87,
+    "status": "new"
+  },
+  {
+    "id": "lead-115",
+    "name": "Matthew Martinez",
+    "company": "Everest Group",
+    "email": "matthew.martinez115@outlook.com",
+    "source": "ads",
+    "score": 83,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-116",
+    "name": "Andrew Anderson",
+    "company": "Visionary Ltd",
+    "email": "andrew.anderson116@company.com",
+    "source": "event",
+    "score": 29,
+    "status": "new"
+  },
+  {
+    "id": "lead-117",
+    "name": "Mia Wilson",
+    "company": "Everest Group",
+    "email": "mia.wilson117@gmail.com",
+    "source": "ads",
+    "score": 77,
+    "status": "new"
+  },
+  {
+    "id": "lead-118",
+    "name": "Nathan Thomas",
+    "company": "Everest Group",
+    "email": "nathan.thomas118@yahoo.com",
+    "source": "referral",
+    "score": 65,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-119",
+    "name": "Christopher Taylor",
+    "company": "Silverline Co",
+    "email": "christopher.taylor119@gmail.com",
+    "source": "event",
+    "score": 91,
+    "status": "new"
+  },
+  {
+    "id": "lead-120",
+    "name": "Joseph Martin",
+    "company": "Greenfield Partners",
+    "email": "joseph.martin120@company.com",
+    "source": "referral",
+    "score": 40,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-121",
+    "name": "Emily Thompson",
+    "company": "Silverline Co",
+    "email": "emily.thompson121@yahoo.com",
+    "source": "web",
+    "score": 87,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-122",
+    "name": "Joshua Williams",
+    "company": "Redwood Ventures",
+    "email": "joshua.williams122@yahoo.com",
+    "source": "web",
+    "score": 27,
+    "status": "new"
+  },
+  {
+    "id": "lead-123",
+    "name": "Michael Miller",
+    "company": "Global Services",
+    "email": "michael.miller123@outlook.com",
+    "source": "ads",
+    "score": 68,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-124",
+    "name": "Hannah Thomas",
+    "company": "Visionary Ltd",
+    "email": "hannah.thomas124@yahoo.com",
+    "source": "web",
+    "score": 97,
+    "status": "new"
+  },
+  {
+    "id": "lead-125",
+    "name": "Ashley Davis",
+    "company": "Prime Consulting",
+    "email": "ashley.davis125@yahoo.com",
+    "source": "web",
+    "score": 38,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-126",
+    "name": "Samuel Anderson",
+    "company": "Bright Future LLC",
+    "email": "samuel.anderson126@gmail.com",
+    "source": "event",
+    "score": 57,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-127",
+    "name": "Ryan Jones",
+    "company": "United Systems",
+    "email": "ryan.jones127@outlook.com",
+    "source": "ads",
+    "score": 87,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-128",
+    "name": "John Martin",
+    "company": "BlueWave Tech",
+    "email": "john.martin128@company.com",
+    "source": "web",
+    "score": 73,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-129",
+    "name": "Hannah Rodriguez",
+    "company": "Prime Consulting",
+    "email": "hannah.rodriguez129@gmail.com",
+    "source": "ads",
+    "score": 77,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-130",
+    "name": "Abigail Martinez",
+    "company": "Prime Consulting",
+    "email": "abigail.martinez130@outlook.com",
+    "source": "web",
+    "score": 65,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-131",
+    "name": "Hannah Smith",
+    "company": "Tech Innovators",
+    "email": "hannah.smith131@outlook.com",
+    "source": "event",
+    "score": 47,
+    "status": "new"
+  },
+  {
+    "id": "lead-132",
+    "name": "Abigail Anderson",
+    "company": "Greenfield Partners",
+    "email": "abigail.anderson132@outlook.com",
+    "source": "referral",
+    "score": 54,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-133",
+    "name": "Olivia Brown",
+    "company": "BlueWave Tech",
+    "email": "olivia.brown133@gmail.com",
+    "source": "web",
+    "score": 86,
+    "status": "new"
+  },
+  {
+    "id": "lead-134",
+    "name": "Nathan Miller",
+    "company": "Everest Group",
+    "email": "nathan.miller134@yahoo.com",
+    "source": "ads",
+    "score": 63,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-135",
+    "name": "Hannah Perez",
+    "company": "Greenfield Partners",
+    "email": "hannah.perez135@yahoo.com",
+    "source": "ads",
+    "score": 91,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-136",
+    "name": "Emily Perez",
+    "company": "Tech Innovators",
+    "email": "emily.perez136@company.com",
+    "source": "event",
+    "score": 16,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-137",
+    "name": "Ashley Lee",
+    "company": "Visionary Ltd",
+    "email": "ashley.lee137@yahoo.com",
+    "source": "event",
+    "score": 47,
+    "status": "new"
+  },
+  {
+    "id": "lead-138",
+    "name": "Amanda Jackson",
+    "company": "Visionary Ltd",
+    "email": "amanda.jackson138@yahoo.com",
+    "source": "event",
+    "score": 26,
+    "status": "new"
+  },
+  {
+    "id": "lead-139",
+    "name": "Emily Wilson",
+    "company": "Bright Future LLC",
+    "email": "emily.wilson139@yahoo.com",
+    "source": "web",
+    "score": 75,
+    "status": "new"
+  },
+  {
+    "id": "lead-140",
+    "name": "Michael Smith",
+    "company": "Bright Future LLC",
+    "email": "michael.smith140@gmail.com",
+    "source": "referral",
+    "score": 29,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-141",
+    "name": "Christopher Johnson",
+    "company": "NextGen Solutions",
+    "email": "christopher.johnson141@yahoo.com",
+    "source": "ads",
+    "score": 36,
+    "status": "new"
+  },
+  {
+    "id": "lead-142",
+    "name": "Samuel Moore",
+    "company": "Bright Future LLC",
+    "email": "samuel.moore142@yahoo.com",
+    "source": "web",
+    "score": 48,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-143",
+    "name": "Sophia Jackson",
+    "company": "BlueWave Tech",
+    "email": "sophia.jackson143@yahoo.com",
+    "source": "referral",
+    "score": 27,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-144",
+    "name": "Andrew Garcia",
+    "company": "Pioneer Labs",
+    "email": "andrew.garcia144@gmail.com",
+    "source": "ads",
+    "score": 65,
+    "status": "new"
+  },
+  {
+    "id": "lead-145",
+    "name": "Sophia Moore",
+    "company": "Tech Innovators",
+    "email": "sophia.moore145@gmail.com",
+    "source": "web",
+    "score": 87,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-146",
+    "name": "Isabella Smith",
+    "company": "Bright Future LLC",
+    "email": "isabella.smith146@yahoo.com",
+    "source": "event",
+    "score": 41,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-147",
+    "name": "Abigail Garcia",
+    "company": "Greenfield Partners",
+    "email": "abigail.garcia147@yahoo.com",
+    "source": "web",
+    "score": 21,
+    "status": "new"
+  },
+  {
+    "id": "lead-148",
+    "name": "Amanda Thomas",
+    "company": "Summit Industries",
+    "email": "amanda.thomas148@gmail.com",
+    "source": "ads",
+    "score": 27,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-149",
+    "name": "Christopher Rodriguez",
+    "company": "United Systems",
+    "email": "christopher.rodriguez149@yahoo.com",
+    "source": "ads",
+    "score": 12,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-150",
+    "name": "Abigail Taylor",
+    "company": "Acme Corp",
+    "email": "abigail.taylor150@company.com",
+    "source": "event",
+    "score": 84,
+    "status": "contacted"
+  }
+]
