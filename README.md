@@ -6,9 +6,6 @@ This project is my solution to the frontend challenge from **CoverPin Company**.
 
 ---
 
-
----
-
 ## ✨ Features Implemented
 
 ### Minimum Viable Product (MVP)
