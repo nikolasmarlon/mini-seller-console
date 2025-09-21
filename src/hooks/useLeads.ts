@@ -118,7 +118,7 @@ export function useLeads() {
 
   function convertLeadToOpportunity(
     leadId: string,
-    amount: number | null = null
+    amount?: number,
   ): Opportunity | null {
     const lead = leads.find((l) => l.id === leadId);
     if (!lead) return null;
@@ -131,9 +131,7 @@ export function useLeads() {
       accountName: lead.company,
     };
 
-    setLeads((pl) =>
-      pl.map((l) => (l.id === leadId ? { ...l, status: "converted" } : l))
-    );
+    setLeads((prevLeads) => prevLeads.filter((l) => l.id !== leadId));
     setOpportunities((prev) => [opp, ...prev]);
 
     return opp;

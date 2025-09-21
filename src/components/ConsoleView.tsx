@@ -71,7 +71,7 @@ export function ConsoleView() {
   };
 
   if (isLoading) {
-    return <div className="p-4 md:p-8">Carregando...</div>;
+    return <div className="p-4 md:p-8">loading...</div>;
   }
 
   return (
@@ -106,7 +106,7 @@ export function ConsoleView() {
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mb-6">
             <input
               type="text"
-              placeholder="Buscar por nome ou empresa..."
+              placeholder="Search by name or company..."
               className="px-4 py-2 border border-gray-300 rounded-lg w-full md:w-1/3"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -116,7 +116,7 @@ export function ConsoleView() {
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value as LeadStatus | 'All')}
             >
-              <option value="All">Todos os Status</option>
+              <option value="All">all statuses</option>
               <option value="New">New</option>
               <option value="Contacted">Contacted</option>
               <option value="Qualified">Qualified</option>
@@ -126,7 +126,7 @@ export function ConsoleView() {
               className="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 w-full md:w-auto"
               onClick={() => setSortOrder(sortOrder === 'desc' ? 'asc' : 'desc')}
             >
-              Ordenar por Score {sortOrder === 'desc' ? '↓' : '↑'}
+              Sort by Score {sortOrder === 'desc' ? '↓' : '↑'}
             </button>
           </div>
           <div className="hidden md:block bg-white shadow-md rounded-lg overflow-hidden">
@@ -222,7 +222,7 @@ export function ConsoleView() {
               </div>
             </>
           ) : (
-            <p className="text-gray-500">Nenhuma oportunidade criada ainda.</p>
+            <p className="text-gray-500">No opportunities created yet.</p>
           )}
         </div>
       )}
